@@ -74,16 +74,39 @@ float:right;}
 	font-family: 'Montserrat', sans-serif;
 	font-weight:400;
 }
+.slidecopy1_dark p {
+	color: #fff;
+	padding: 10px;
+	margin: 20px 20px 0px 0px;
+	font-size: 1.2em;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:400;
+	width: 60%;
+float:right;
+background-color:rgba(0,0,0,0.5)
+}
 .slidecopy2 {
 width: 60%;
 float:left;}
 .slidecopy2 p {
 	color: #fff;
 	padding: 0px 0px 10px 0px;
-	margin: 0px;
+	margin: 0px 0px 0px 20px;
 	font-size: 1.2em;
 	font-family: 'Montserrat', sans-serif;
 	font-weight:400;
+}
+
+.slidecopy2_dark p {
+	color: #fff;
+	padding: 10px;
+	margin: 20px 0px 0px 20px;
+	font-size: 1.2em;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:400;
+	width: 60%;
+float:left;
+background-color:rgba(0,0,0,0.5)
 }
 .slidecopy3 {
 width: 90%;
@@ -128,7 +151,20 @@ h1 {
 	margin: 0px;
 	padding: 20px;
 }
+h1.dark {
+    color: #fff;
+    font-size: 5em;
+	width: 100%;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:700;
+	margin: 0px;
+	padding: 20px 40px 20px 20px;
 
+	background-color:rgba(0,0,0,0.5)
+}
+
+.dark {
+	color: #000;}
 .facultyExpert {
 	width: 90%;
 	margin: 0 auto;
